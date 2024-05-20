@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+a:hover {
+  border-bottom: 3px solid #26b59d;
+  transition: border 0.3s ease-in;
+}
+
+.card{
+  border: rgb(128, 128, 241) double 5px;
+}
+
+.navbar{
+  background-color: #26b59d;
+}
+
+.titulo{
+  color:rgb(70, 70, 202);
+}
+
+.active {
+  text-shadow: 1px 1px 1px black;
+}
+
+.badge{
+  width:60px;
+  height:30px;
+  text-align:center;
+  font-size:15px;
+  margin-left:100px;
+}
+
+.bg-poison {
+  background-color: #861ba3;
+}
+
+.bg-bug {
+  background-color: #7ed120;
+}
+
+.bg-flying {
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  background-color: #3dc7ef;
+}
+
+.btn-search {
+  background-color: #1d1b1b;
+  color: #fff;
+  
+}
+.btn-search:hover {
+  background-color: #3e1bda;
+  color: #fff;
+}
+
+.title {
+  color: #2824f1;
+}
+
+.pikachu {
+  margin-top:60px;
+  width: 300px;
+  height: 350px;
+}
+
+.form-select{
+  font-weight: bold;
+  color:#2824f1;
+}
+
+.cargando{
+  font-weight: bold;
+  text-align:center;
+  color: red;
+  font-size: 40px;
+  margin-top:60px;
+}
